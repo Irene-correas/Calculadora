@@ -18,13 +18,13 @@ body {
   justify-content: center;
   align-content: center;
   min-height: 100vh;
-  grid-template-columns: repeat(4, 100px);
-  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 80px);
 }
 
 .calculator-grilla > button {
   cursor: pointer;
-  font-size: 32px;
+  font-size: 25px;
   border: 1px solid white;
   outline: none;
   background-color: rgb(250, 223, 248);
@@ -43,7 +43,7 @@ body {
 }
 .output .display {
   color: black;
-  font-size: 30px;
+  font-size: 23px;
   text-align: right;
 }
 .calculator-grilla > button:hover {
@@ -57,7 +57,7 @@ body {
   height: 80vh;
 }
 .icon {
-  font-size: 50px;
+  font-size: 30px;
   color: black;
   border-radius: 50%;
   border: 2px solid black;
