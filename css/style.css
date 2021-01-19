@@ -5,7 +5,12 @@ body {
   position: relative;
   color: rgb(7, 6, 6);
   font-size: 50px;
-  background: linear-gradient(to top, #29022e, #e471de);
+  background: linear-gradient(to right, #29022e, #e471de);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .calculator-grilla {
@@ -43,4 +48,21 @@ body {
 }
 .calculator-grilla > button:hover {
   background-color: rgba(255, 210, 248, 0.9);
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main {
+  height: 80vh;
+}
+.icon {
+  font-size: 50px;
+  color: black;
+  border-radius: 50%;
+  border: 2px solid black;
+  padding: 8px 8px;
+  display: inline-block;
+  transition: 1s;
+  list-style: none;
 }
